@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C19AA915DA9E8500C4DA70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C19AA815DA9E8500C4DA70 /* UIKit.framework */; };
+		08C19AAB15DA9E8500C4DA70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C19AAA15DA9E8500C4DA70 /* Foundation.framework */; };
+		08C19AAD15DA9E8500C4DA70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C19AAC15DA9E8500C4DA70 /* CoreGraphics.framework */; };
+		08C19AB315DA9E8500C4DA70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08C19AB115DA9E8500C4DA70 /* InfoPlist.strings */; };
+		08C19AB515DA9E8500C4DA70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C19AB415DA9E8500C4DA70 /* main.m */; };
+		08C19AB915DA9E8500C4DA70 /* BSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C19AB815DA9E8500C4DA70 /* BSDAppDelegate.m */; };
+		08C19ABC15DA9E8500C4DA70 /* BSDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C19ABB15DA9E8500C4DA70 /* BSDMasterViewController.m */; };
+		08C19ABF15DA9E8500C4DA70 /* BSDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C19ABE15DA9E8500C4DA70 /* BSDDetailViewController.m */; };
+		08C19AC215DA9E8500C4DA70 /* BSDMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C19AC015DA9E8500C4DA70 /* BSDMasterViewController_iPhone.xib */; };
+		08C19AC515DA9E8500C4DA70 /* BSDMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C19AC315DA9E8500C4DA70 /* BSDMasterViewController_iPad.xib */; };
+		08C19AC815DA9E8500C4DA70 /* BSDDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C19AC615DA9E8500C4DA70 /* BSDDetailViewController_iPhone.xib */; };
+		08C19ACB15DA9E8500C4DA70 /* BSDDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C19AC915DA9E8500C4DA70 /* BSDDetailViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08C19AA415DA9E8500C4DA70 /* BodyScannerDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyScannerDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C19AA815DA9E8500C4DA70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08C19AAA15DA9E8500C4DA70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08C19AAC15DA9E8500C4DA70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08C19AB015DA9E8500C4DA70 /* BodyScannerDriver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BodyScannerDriver-Info.plist"; sourceTree = "<group>"; };
+		08C19AB215DA9E8500C4DA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08C19AB415DA9E8500C4DA70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08C19AB615DA9E8500C4DA70 /* BodyScannerDriver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BodyScannerDriver-Prefix.pch"; sourceTree = "<group>"; };
+		08C19AB715DA9E8500C4DA70 /* BSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSDAppDelegate.h; sourceTree = "<group>"; };
+		08C19AB815DA9E8500C4DA70 /* BSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDAppDelegate.m; sourceTree = "<group>"; };
+		08C19ABA15DA9E8500C4DA70 /* BSDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSDMasterViewController.h; sourceTree = "<group>"; };
+		08C19ABB15DA9E8500C4DA70 /* BSDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDMasterViewController.m; sourceTree = "<group>"; };
+		08C19ABD15DA9E8500C4DA70 /* BSDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSDDetailViewController.h; sourceTree = "<group>"; };
+		08C19ABE15DA9E8500C4DA70 /* BSDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDDetailViewController.m; sourceTree = "<group>"; };
+		08C19AC115DA9E8500C4DA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSDMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		08C19AC415DA9E8500C4DA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSDMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		08C19AC715DA9E8500C4DA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSDDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		08C19ACA15DA9E8500C4DA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSDDetailViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C19AA115DA9E8500C4DA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C19AA915DA9E8500C4DA70 /* UIKit.framework in Frameworks */,
+				08C19AAB15DA9E8500C4DA70 /* Foundation.framework in Frameworks */,
+				08C19AAD15DA9E8500C4DA70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C19A9915DA9E8500C4DA70 = {
+			isa = PBXGroup;
+			children = (
+				08C19AAE15DA9E8500C4DA70 /* BodyScannerDriver */,
+				08C19AA715DA9E8500C4DA70 /* Frameworks */,
+				08C19AA515DA9E8500C4DA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08C19AA515DA9E8500C4DA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C19AA415DA9E8500C4DA70 /* BodyScannerDriver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08C19AA715DA9E8500C4DA70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08C19AA815DA9E8500C4DA70 /* UIKit.framework */,
+				08C19AAA15DA9E8500C4DA70 /* Foundation.framework */,
+				08C19AAC15DA9E8500C4DA70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08C19AAE15DA9E8500C4DA70 /* BodyScannerDriver */ = {
+			isa = PBXGroup;
+			children = (
+				08C19AB715DA9E8500C4DA70 /* BSDAppDelegate.h */,
+				08C19AB815DA9E8500C4DA70 /* BSDAppDelegate.m */,
+				08C19ABA15DA9E8500C4DA70 /* BSDMasterViewController.h */,
+				08C19ABB15DA9E8500C4DA70 /* BSDMasterViewController.m */,
+				08C19ABD15DA9E8500C4DA70 /* BSDDetailViewController.h */,
+				08C19ABE15DA9E8500C4DA70 /* BSDDetailViewController.m */,
+				08C19AC015DA9E8500C4DA70 /* BSDMasterViewController_iPhone.xib */,
+				08C19AC315DA9E8500C4DA70 /* BSDMasterViewController_iPad.xib */,
+				08C19AC615DA9E8500C4DA70 /* BSDDetailViewController_iPhone.xib */,
+				08C19AC915DA9E8500C4DA70 /* BSDDetailViewController_iPad.xib */,
+				08C19AAF15DA9E8500C4DA70 /* Supporting Files */,
+			);
+			path = BodyScannerDriver;
+			sourceTree = "<group>";
+		};
+		08C19AAF15DA9E8500C4DA70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08C19AB015DA9E8500C4DA70 /* BodyScannerDriver-Info.plist */,
+				08C19AB115DA9E8500C4DA70 /* InfoPlist.strings */,
+				08C19AB415DA9E8500C4DA70 /* main.m */,
+				08C19AB615DA9E8500C4DA70 /* BodyScannerDriver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08C19AA315DA9E8500C4DA70 /* BodyScannerDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C19ACE15DA9E8500C4DA70 /* Build configuration list for PBXNativeTarget "BodyScannerDriver" */;
+			buildPhases = (
+				08C19AA015DA9E8500C4DA70 /* Sources */,
+				08C19AA115DA9E8500C4DA70 /* Frameworks */,
+				08C19AA215DA9E8500C4DA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyScannerDriver;
+			productName = BodyScannerDriver;
+			productReference = 08C19AA415DA9E8500C4DA70 /* BodyScannerDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08C19A9B15DA9E8500C4DA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 08C19A9E15DA9E8500C4DA70 /* Build configuration list for PBXProject "BodyScannerDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08C19A9915DA9E8500C4DA70;
+			productRefGroup = 08C19AA515DA9E8500C4DA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08C19AA315DA9E8500C4DA70 /* BodyScannerDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C19AA215DA9E8500C4DA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C19AB315DA9E8500C4DA70 /* InfoPlist.strings in Resources */,
+				08C19AC215DA9E8500C4DA70 /* BSDMasterViewController_iPhone.xib in Resources */,
+				08C19AC515DA9E8500C4DA70 /* BSDMasterViewController_iPad.xib in Resources */,
+				08C19AC815DA9E8500C4DA70 /* BSDDetailViewController_iPhone.xib in Resources */,
+				08C19ACB15DA9E8500C4DA70 /* BSDDetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C19AA015DA9E8500C4DA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C19AB515DA9E8500C4DA70 /* main.m in Sources */,
+				08C19AB915DA9E8500C4DA70 /* BSDAppDelegate.m in Sources */,
+				08C19ABC15DA9E8500C4DA70 /* BSDMasterViewController.m in Sources */,
+				08C19ABF15DA9E8500C4DA70 /* BSDDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08C19AB115DA9E8500C4DA70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C19AB215DA9E8500C4DA70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08C19AC015DA9E8500C4DA70 /* BSDMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C19AC115DA9E8500C4DA70 /* en */,
+			);
+			name = BSDMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		08C19AC315DA9E8500C4DA70 /* BSDMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C19AC415DA9E8500C4DA70 /* en */,
+			);
+			name = BSDMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		08C19AC615DA9E8500C4DA70 /* BSDDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C19AC715DA9E8500C4DA70 /* en */,
+			);
+			name = BSDDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		08C19AC915DA9E8500C4DA70 /* BSDDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C19ACA15DA9E8500C4DA70 /* en */,
+			);
+			name = BSDDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08C19ACC15DA9E8500C4DA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08C19ACD15DA9E8500C4DA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08C19ACF15DA9E8500C4DA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BodyScannerDriver/BodyScannerDriver-Prefix.pch";
+				INFOPLIST_FILE = "BodyScannerDriver/BodyScannerDriver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08C19AD015DA9E8500C4DA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BodyScannerDriver/BodyScannerDriver-Prefix.pch";
+				INFOPLIST_FILE = "BodyScannerDriver/BodyScannerDriver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C19A9E15DA9E8500C4DA70 /* Build configuration list for PBXProject "BodyScannerDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C19ACC15DA9E8500C4DA70 /* Debug */,
+				08C19ACD15DA9E8500C4DA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C19ACE15DA9E8500C4DA70 /* Build configuration list for PBXNativeTarget "BodyScannerDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C19ACF15DA9E8500C4DA70 /* Debug */,
+				08C19AD015DA9E8500C4DA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08C19A9B15DA9E8500C4DA70 /* Project object */;
+}
