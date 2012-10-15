@@ -27,10 +27,6 @@ and then send a "pull request" to notify the team of updates that are ready to b
 
 Detailed instructions can be found at [Patching](https://gist.github.com/1507418)
 
-Getting Started with BodyScannerDriver
-==============================================
-Clone the repo on your computer
-
 License
 ==============================================
 Copyright 2012 The National Center for Telehealth and Technology
