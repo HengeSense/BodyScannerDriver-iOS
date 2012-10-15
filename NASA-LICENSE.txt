@@ -1,11 +1,11 @@
-Breathe2Relax
+BodyScannerDriver Module
 ===============
 Copyright © 2009-2012 United States Government as represented by the Chief Information Officer of the National Center for Telehealth and Technology. All Rights Reserved.
 Copyright © 2009-2012 Contributors. All Rights Reserved. 
 THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE, REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY"). THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES, DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
 Government Agency: The National Center for Telehealth and Technology
-Government Agency Original Software Designation: Breathe2Relax001
-Government Agency Original Software Title: Breathe2Relax
+Government Agency Original Software Designation: BodyScannerDriver001
+Government Agency Original Software Title: BodyScannerDriver
 User Registration Requested. Please send email with your contact information to: robert.kayl2@us.army.mil
 Government Agency Point of Contact for Original Software: robert.kayl2@us.army.mil
 
@@ -17,8 +17,8 @@ D. "Distribution" means conveyance or transfer of the Subject Software, regardle
 E. "Larger Work" means computer software that combines Subject Software, or portions thereof, with software separate from the Subject Software that is not governed by the terms of this Agreement.
 F. "Modification" means any alteration of, including addition to or deletion from, the substance or structure of either the Original Software or Subject Software, and includes derivative works, as that
 term is defined in the Copyright Statute, 17 USC 101. However, the act of including Subject Software as part of a Larger Work does not in and of itself constitute a Modification.
-G. "Original Software" means the computer software first released under this Agreement by Government Agency with Government Agency designation Breathe2Relax001 and entitled
-Breathe2Relax, including source code, object code and accompanying documentation, if any.
+G. "Original Software" means the computer software first released under this Agreement by Government Agency with Government Agency designation BodyScannerDriver001 and entitled
+BodyScannerDriver, including source code, object code and accompanying documentation, if any.
 H. "Recipient" means anyone who acquires the Subject Software under this Agreement, including all Contributors.
 I. "Redistribution" means Distribution of the Subject Software after a Modification has been made.
 J. "Reproduction" means the making of a counterpart, image or copy of the Subject Software. 
